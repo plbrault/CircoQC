@@ -35,7 +35,7 @@ const App = () => {
   }
 
   if (riding === '' && geolocationResult.status === 'OK') {
-    setRiding(getRiding(geolocationResult.lat, geolocationResult.lon) || 'INCONNUE');
+    setRiding(getRiding(geolocationResult.lat, geolocationResult.lon) || 'UNKNOWN');
   }
 
   return (
@@ -49,9 +49,15 @@ const App = () => {
           ERROR: 'Une erreur est survenue.',
           OK: (
             <div id="riding">
-              <a href={`https://fr.wikipedia.org/wiki/${riding.replace(' ', '_')}_(circonscription_provinciale)`}>
-                {riding}
-              </a>
+              {
+                riding === 'UNKNOWN'
+                  ? 'INCONNUE'
+                  : (
+                    <a href={`https://fr.wikipedia.org/wiki/${riding.replace(' ', '_')}_(circonscription_provinciale)`}>
+                      {riding}
+                    </a>
+                  )
+              }
             </div>
           ),
         }[geolocationResult.status]
