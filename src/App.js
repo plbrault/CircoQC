@@ -34,11 +34,12 @@ const App = () => {
 
   return (
     <div>
+      <h1>Votre circonscription</h1>
       {
         {
-          PENDING: 'PENDING',
-          DENIED: 'DENIED',
-          ERROR: 'ERROR',
+          PENDING: 'En attente...',
+          DENIED: 'Votre circonscription n\'a pas pu être obtenue car vous avez refusé de partager votre localisation.',
+          ERROR: 'Une erreur est survenue.',
           OK: riding,
         }[geolocationResult.status]
       }
