@@ -4,6 +4,7 @@ body {
   text-align: center;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   padding-top: 20px;
+  height: 100%;
 }
 
 #logo {
@@ -13,4 +14,16 @@ body {
 
 #riding {
   font-size: 1.5em;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.fa-github {
+  font-size: 2em;
+}
+
+a, a:visited {
+  color: #ffffff;
 }

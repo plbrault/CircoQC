@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import React, { useEffect, useState } from 'react';
 
 import logo from './logo.svg';
@@ -36,7 +38,7 @@ const App = () => {
   }
 
   return (
-    <div>
+    <div className="container">
       <img id="logo" src={logo} alt="Fleur de lys" />
       <h1>Vous êtes dans la circonscription:</h1>
       {
@@ -47,6 +49,11 @@ const App = () => {
           OK: <div id="riding">{riding}</div>,
         }[geolocationResult.status]
       }
+      <footer>
+        <a href="https://github.com/plbrault/circoqc">
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
+      </footer>
     </div>
   );
 };
