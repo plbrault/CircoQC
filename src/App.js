@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
+import logo from './logo.svg';
+
 import './App.css';
 
 import getRiding from './getRiding';
@@ -35,6 +37,7 @@ const App = () => {
 
   return (
     <div>
+      <img id="logo" src={logo} alt="Fleur de lys" />
       <h1>Vous êtes dans la circonscription:</h1>
       {
         {

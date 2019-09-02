@@ -1,8 +1,14 @@
 body {
   color: white;
-  background-color: #030bfc;
+  background-color: #003399;
   text-align: center;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-top: 20px;
+}
+
+#logo {
+  width: 30px;
+  height: 20px;
 }
 
 #riding {
