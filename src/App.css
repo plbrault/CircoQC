@@ -1,10 +1,33 @@
 body {
   color: white;
-  background-color: #030bfc;
+  background-color: #003399;
   text-align: center;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-top: 20px;
+  height: 100%;
 }
 
 #riding {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.fa-github {
+  font-size: 2em;
+}
+
+a, a:visited {
+  color: #ffffff;
+}
+
+.footer-text {
+  padding: 20px;
+}
+
+.spinner {
   font-size: 1.5em;
 }
