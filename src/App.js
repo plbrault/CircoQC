@@ -12,7 +12,7 @@ import getRiding from './getRiding';
 const App = () => {
   const [geolocationSupported, setGeolocationSupported] = useState(true);
   const [geolocationResult, setGeolocationResult] = useState({ status: 'PENDING' });
-  const [riding, setRiding] = useState(null);
+  const [riding, setRiding] = useState('');
 
   useEffect(() => {
     if (navigator.geolocation) {
@@ -34,7 +34,7 @@ const App = () => {
     return <div>{'La géolocalisation n\'est pas supportée sur ce navigateur.'}</div>;
   }
 
-  if (!riding && geolocationResult.status === 'OK') {
+  if (riding === '' && geolocationResult.status === 'OK') {
     setRiding(getRiding(geolocationResult.lat, geolocationResult.lon) || 'INCONNUE');
   }
 
@@ -47,7 +47,13 @@ const App = () => {
           PENDING: <FontAwesomeIcon className="spinner" icon={faSpinner} spin />,
           DENIED: 'Votre circonscription n\'a pas pu être déterminée car vous avez refusé de partager votre localisation.',
           ERROR: 'Une erreur est survenue.',
-          OK: <div id="riding">{riding}</div>,
+          OK: (
+            <div id="riding">
+              <a href={`https://fr.wikipedia.org/wiki/${riding.replace(' ', '_')}_(circonscription_provinciale)`}>
+                {riding}
+              </a>
+            </div>
+          ),
         }[geolocationResult.status]
       }
       <footer>
