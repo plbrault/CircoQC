@@ -26,3 +26,7 @@ a, a:visited {
 .footer-text {
   padding: 20px;
 }
+
+.spinner {
+  font-size: 1.5em;
+}

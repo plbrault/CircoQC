@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 
 import logo from './logo.svg';
@@ -43,8 +44,8 @@ const App = () => {
       <h1>Vous êtes dans la circonscription:</h1>
       {
         {
-          PENDING: 'En attente...',
-          DENIED: 'Votre circonscription n\'a pas pu être obtenue car vous avez refusé de partager votre localisation.',
+          PENDING: <FontAwesomeIcon className="spinner" icon={faSpinner} spin />,
+          DENIED: 'Votre circonscription n\'a pas pu être déterminée car vous avez refusé de partager votre localisation.',
           ERROR: 'Une erreur est survenue.',
           OK: <div id="riding">{riding}</div>,
         }[geolocationResult.status]
