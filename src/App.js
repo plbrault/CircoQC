@@ -34,7 +34,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Votre circonscription</h1>
+      <h1>Dans quelle circonscription provinciale êtes-vous présentement?</h1>
       {
         {
           PENDING: 'En attente...',
