@@ -9,8 +9,8 @@ const App = () => {
 
   useEffect(() => {
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition((location) => {
-        setGeolocationResult({ status: 'OK', location })
+      navigator.geolocation.getCurrentPosition(({ coords: { latitude: lat, longitude: lon } }) => {
+        setGeolocationResult({ status: 'OK', lat, lon });
       }, (error) => {
         if (error.code === error.PERMISSION_DENIED) {
           setGeolocationResult({ status: 'DENIED' });
@@ -34,7 +34,7 @@ const App = () => {
           PENDING: 'PENDING',
           DENIED: 'DENIED',
           ERROR: 'ERROR',
-          OK: 'OK',
+          OK: `${geolocationResult.lat} ${geolocationResult.lon}`,
         }[geolocationResult.status]
       }
     </div>
