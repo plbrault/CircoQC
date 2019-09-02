@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+
 import './App.css';
 
 import getRiding from './getRiding';
@@ -34,13 +35,13 @@ const App = () => {
 
   return (
     <div>
-      <h1>Dans quelle circonscription provinciale êtes-vous présentement?</h1>
+      <h1>Vous êtes dans la circonscription:</h1>
       {
         {
           PENDING: 'En attente...',
           DENIED: 'Votre circonscription n\'a pas pu être obtenue car vous avez refusé de partager votre localisation.',
           ERROR: 'Une erreur est survenue.',
-          OK: riding,
+          OK: <div id="riding">{riding}</div>,
         }[geolocationResult.status]
       }
     </div>
