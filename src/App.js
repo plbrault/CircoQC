@@ -2,7 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import getRiding from './getRiding';
+
 function App() {
+  console.log(getRiding(45.3568551, -71.86294));
   return (
     <div className="App">
       <header className="App-header">

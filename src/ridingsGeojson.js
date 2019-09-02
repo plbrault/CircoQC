@@ -1,6 +1,7 @@
+/* eslint-disable */
+
 // Converted from KML file downloaded at https://dgeq.org/carte2017simple.kml
-const ridingsGeojson = `
-{
+const ridingsGeojson = {
   "type": "FeatureCollection",
   "features": [
       {
@@ -163,7 +164,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Acadie\r\n  ",
+              "name": "Acadie",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -671,7 +672,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Anjou-Louis-Riel\r\n  ",
+              "name": "Anjou-Louis-Riel",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -1299,7 +1300,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Arthabaska\r\n  ",
+              "name": "Arthabaska",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -2907,7 +2908,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Beauce-Nord\r\n  ",
+              "name": "Beauce-Nord",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -3755,7 +3756,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Beauharnois\r\n  ",
+              "name": "Beauharnois",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -4428,7 +4429,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Bertrand\r\n  ",
+              "name": "Bertrand",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -4976,7 +4977,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Blainville\r\n  ",
+              "name": "Blainville",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -5874,7 +5875,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Borduas\r\n  ",
+              "name": "Borduas",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -6027,7 +6028,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Bourassa-Sauv�\r\n  ",
+              "name": "Bourassa-Sauvé",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -6300,7 +6301,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Bourget\r\n  ",
+              "name": "Bourget",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -7023,7 +7024,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Brome-Missisquoi\r\n  ",
+              "name": "Brome-Missisquoi",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -7786,7 +7787,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Chambly\r\n  ",
+              "name": "Chambly",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -8239,7 +8240,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Champlain\r\n  ",
+              "name": "Champlain",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -8632,7 +8633,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Chapleau\r\n  ",
+              "name": "Chapleau",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -8835,7 +8836,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Charlesbourg\r\n  ",
+              "name": "Charlesbourg",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -9243,7 +9244,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Ch�teauguay\r\n  ",
+              "name": "Châteauguay",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -9711,7 +9712,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Chicoutimi\r\n  ",
+              "name": "Chicoutimi",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -10019,7 +10020,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Chomedey\r\n  ",
+              "name": "Chomedey",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -10672,7 +10673,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Chutes-de-la-Chaudi�re\r\n  ",
+              "name": "Chutes-de-la-Chaudière",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -11210,7 +11211,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    D'Arcy-McGee\r\n  ",
+              "name": "D'Arcy-McGee",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -12108,7 +12109,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Deux-Montagnes\r\n  ",
+              "name": "Deux-Montagnes",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -13841,7 +13842,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Drummond-Bois-Francs\r\n  ",
+              "name": "Drummond-Bois-Francs",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -14294,7 +14295,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Fabre\r\n  ",
+              "name": "Fabre",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -14512,7 +14513,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Gouin\r\n  ",
+              "name": "Gouin",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -14640,7 +14641,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Granby\r\n  ",
+              "name": "Granby",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -15433,7 +15434,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Groulx\r\n  ",
+              "name": "Groulx",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -15571,7 +15572,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Hochelaga-Maisonneuve\r\n  ",
+              "name": "Hochelaga-Maisonneuve",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -16299,7 +16300,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Hull\r\n  ",
+              "name": "Hull",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -17862,7 +17863,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Huntingdon\r\n  ",
+              "name": "Huntingdon",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -19255,7 +19256,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Iberville\r\n  ",
+              "name": "Iberville",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -19333,7 +19334,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    �les-de-la-Madeleine\r\n  ",
+              "name": "Îles-de-la-Madeleine",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -19721,7 +19722,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Jacques-Cartier\r\n  ",
+              "name": "Jacques-Cartier",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -20069,7 +20070,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Jean-Lesage\r\n  ",
+              "name": "Jean-Lesage",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -20437,7 +20438,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Jeanne-Mance-Viger\r\n  ",
+              "name": "Jeanne-Mance-Viger",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -20795,7 +20796,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Jean-Talon\r\n  ",
+              "name": "Jean-Talon",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -21568,7 +21569,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Johnson\r\n  ",
+              "name": "Johnson",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -21816,7 +21817,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Jonqui�re\r\n  ",
+              "name": "Jonquière",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -21984,7 +21985,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    LaFontaine\r\n  ",
+              "name": "LaFontaine",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -22387,7 +22388,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    La Peltrie\r\n  ",
+              "name": "La Peltrie",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -22805,7 +22806,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    La Pini�re\r\n  ",
+              "name": "La Pinière",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -23133,7 +23134,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Laporte\r\n  ",
+              "name": "Laporte",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -24481,7 +24482,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    La Prairie\r\n  ",
+              "name": "La Prairie",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -24629,7 +24630,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Laurier-Dorion\r\n  ",
+              "name": "Laurier-Dorion",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -24782,7 +24783,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Laval-des-Rapides\r\n  ",
+              "name": "Laval-des-Rapides",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -25645,7 +25646,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Les Plaines\r\n  ",
+              "name": "Les Plaines",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -25888,7 +25889,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    L�vis\r\n  ",
+              "name": "Lévis",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -27286,7 +27287,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Lotbini�re-Frontenac\r\n  ",
+              "name": "Lotbinière-Frontenac",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -27424,7 +27425,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Louis-H�bert\r\n  ",
+              "name": "Louis-Hébert",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -27607,7 +27608,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Marguerite-Bourgeoys\r\n  ",
+              "name": "Marguerite-Bourgeoys",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -27845,7 +27846,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Marie-Victorin\r\n  ",
+              "name": "Marie-Victorin",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -28253,7 +28254,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Marquette\r\n  ",
+              "name": "Marquette",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -28666,7 +28667,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Masson\r\n  ",
+              "name": "Masson",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -28794,7 +28795,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Maurice-Richard\r\n  ",
+              "name": "Maurice-Richard",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -28957,7 +28958,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Mercier\r\n  ",
+              "name": "Mercier",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -29245,7 +29246,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Mille-�les\r\n  ",
+              "name": "Mille-Îles",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -30803,7 +30804,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Mirabel\r\n  ",
+              "name": "Mirabel",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -31231,7 +31232,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Montarville\r\n  ",
+              "name": "Montarville",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -31644,7 +31645,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Montmorency\r\n  ",
+              "name": "Montmorency",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -32012,7 +32013,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Mont-Royal-Outremont\r\n  ",
+              "name": "Mont-Royal-Outremont",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -32415,7 +32416,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Nelligan\r\n  ",
+              "name": "Nelligan",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -33253,7 +33254,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Notre-Dame-de-Gr�ce\r\n  ",
+              "name": "Notre-Dame-de-Grâce",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -34006,7 +34007,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Orford\r\n  ",
+              "name": "Orford",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -34179,7 +34180,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Pointe-aux-Trembles\r\n  ",
+              "name": "Pointe-aux-Trembles",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -34607,7 +34608,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Portneuf\r\n  ",
+              "name": "Portneuf",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -35400,7 +35401,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Pr�vost\r\n  ",
+              "name": "Prévost",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -36083,7 +36084,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Repentigny\r\n  ",
+              "name": "Repentigny",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -37066,7 +37067,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Richelieu\r\n  ",
+              "name": "Richelieu",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -38364,7 +38365,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Richmond\r\n  ",
+              "name": "Richmond",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -38632,7 +38633,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Robert-Baldwin\r\n  ",
+              "name": "Robert-Baldwin",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -38845,7 +38846,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Rosemont\r\n  ",
+              "name": "Rosemont",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -39723,7 +39724,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Saint-Henri-Sainte-Anne\r\n  ",
+              "name": "Saint-Henri-Sainte-Anne",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -40411,7 +40412,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Saint-Hyacinthe\r\n  ",
+              "name": "Saint-Hyacinthe",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -41179,7 +41180,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Saint-Jean\r\n  ",
+              "name": "Saint-Jean",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -41867,7 +41868,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Saint-J�r�me\r\n  ",
+              "name": "Saint-Jérôme",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -42385,7 +42386,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Saint-Laurent\r\n  ",
+              "name": "Saint-Laurent",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -42573,7 +42574,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Sainte-Marie-Saint-Jacques\r\n  ",
+              "name": "Sainte-Marie-Saint-Jacques",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -42751,7 +42752,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Sainte-Rose\r\n  ",
+              "name": "Sainte-Rose",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -44174,7 +44175,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Sanguinet\r\n  ",
+              "name": "Sanguinet",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -44752,7 +44753,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Sherbrooke\r\n  ",
+              "name": "Sherbrooke",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -45917,7 +45918,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Soulanges\r\n  ",
+              "name": "Soulanges",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -46095,7 +46096,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Taillon\r\n  ",
+              "name": "Taillon",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -46523,7 +46524,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Taschereau\r\n  ",
+              "name": "Taschereau",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -47041,7 +47042,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Terrebonne\r\n  ",
+              "name": "Terrebonne",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -47244,7 +47245,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Trois-Rivi�res\r\n  ",
+              "name": "Trois-Rivières",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -47647,7 +47648,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Vachon\r\n  ",
+              "name": "Vachon",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -48465,7 +48466,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Vanier-Les Rivi�res\r\n  ",
+              "name": "Vanier-Les Rivières",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -49125,7 +49126,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Vaudreuil\r\n  ",
+              "name": "Vaudreuil",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -50043,7 +50044,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Verch�res\r\n  ",
+              "name": "Verchères",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -50286,7 +50287,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Verdun\r\n  ",
+              "name": "Verdun",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -50424,7 +50425,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Viau\r\n  ",
+              "name": "Viau",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -50662,7 +50663,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Vimont\r\n  ",
+              "name": "Vimont",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -51110,7 +51111,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Westmount-Saint-Louis\r\n  ",
+              "name": "Westmount-Saint-Louis",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -51468,7 +51469,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Rivi�re-du-Loup-T�miscouata\r\n  ",
+              "name": "Rivière-du-Loup-Témiscouata",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -52131,7 +52132,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    C�te-du-Sud\r\n  ",
+              "name": "Côte-du-Sud",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -52399,7 +52400,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Matane-Matap�dia\r\n  ",
+              "name": "Matane-Matapédia",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -53432,7 +53433,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Saint-Fran�ois\r\n  ",
+              "name": "Saint-François",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -54990,7 +54991,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    M�gantic\r\n  ",
+              "name": "Mégantic",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -60983,7 +60984,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Beauce-Sud\r\n  ",
+              "name": "Beauce-Sud",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -66616,7 +66617,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Bellechasse\r\n  ",
+              "name": "Bellechasse",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -68229,7 +68230,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Nicolet-B�cancour\r\n  ",
+              "name": "Nicolet-Bécancour",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -70247,7 +70248,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Ungava\r\n  ",
+              "name": "Ungava",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -71444,7 +71445,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Duplessis\r\n  ",
+              "name": "Duplessis",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -72162,7 +72163,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Rouyn-Noranda-T�miscamingue\r\n  ",
+              "name": "Rouyn-Noranda-Témiscamingue",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -73235,7 +73236,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Argenteuil\r\n  ",
+              "name": "Argenteuil",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -73913,7 +73914,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Papineau\r\n  ",
+              "name": "Papineau",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -74676,7 +74677,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Joliette\r\n  ",
+              "name": "Joliette",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -75129,7 +75130,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Charlevoix-C�te-de-Beaupr�\r\n  ",
+              "name": "Charlevoix-Côte-de-Beaupré",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -75947,7 +75948,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Chauveau\r\n  ",
+              "name": "Chauveau",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -76645,7 +76646,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Maskinong�\r\n  ",
+              "name": "Maskinongé",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -77618,7 +77619,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    L'Assomption\r\n  ",
+              "name": "L'Assomption",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -78791,7 +78792,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Rousseau\r\n  ",
+              "name": "Rousseau",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -80209,7 +80210,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Berthier\r\n  ",
+              "name": "Berthier",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -80352,7 +80353,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Rimouski\r\n  ",
+              "name": "Rimouski",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -80887,7 +80888,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Bonaventure\r\n  ",
+              "name": "Bonaventure",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -81215,7 +81216,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Abitibi-Ouest\r\n  ",
+              "name": "Abitibi-Ouest",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -82243,7 +82244,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Laviolette-Saint-Maurice\r\n  ",
+              "name": "Laviolette-Saint-Maurice",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -83046,7 +83047,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Roberval\r\n  ",
+              "name": "Roberval",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -84149,7 +84150,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Lac-Saint-Jean\r\n  ",
+              "name": "Lac-Saint-Jean",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -85277,7 +85278,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Dubuc\r\n  ",
+              "name": "Dubuc",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -85555,7 +85556,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Ren�-L�vesque\r\n  ",
+              "name": "René-Lévesque",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -85898,7 +85899,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Gasp�\r\n  ",
+              "name": "Gaspé",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -87561,7 +87562,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Gatineau\r\n  ",
+              "name": "Gatineau",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -88699,7 +88700,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Labelle\r\n  ",
+              "name": "Labelle",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -89867,7 +89868,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Pontiac\r\n  ",
+              "name": "Pontiac",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -90505,7 +90506,7 @@ const ridingsGeojson = `
               ]
           },
           "properties": {
-              "name": "\r\n    Abitibi-Est\r\n  ",
+              "name": "Abitibi-Est",
               "styleUrl": "#polystyle",
               "styleHash": "1c499575",
               "stroke": "#ffaa7f",
@@ -90514,7 +90515,6 @@ const ridingsGeojson = `
           }
       }
   ]
-}
-`;
+};
 
 export default ridingsGeojson;
