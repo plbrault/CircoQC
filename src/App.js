@@ -6,6 +6,7 @@ import getRiding from './getRiding';
 const App = () => {
   const [geolocationSupported, setGeolocationSupported] = useState(true);
   const [geolocationResult, setGeolocationResult] = useState({ status: 'PENDING' });
+  const [riding, setRiding] = useState(null);
 
   useEffect(() => {
     if (navigator.geolocation) {
@@ -27,6 +28,10 @@ const App = () => {
     return <div>{'La géolocalisation n\'est pas supportée sur ce navigateur.'}</div>;
   }
 
+  if (!riding && geolocationResult.status === 'OK') {
+    setRiding(getRiding(geolocationResult.lat, geolocationResult.lon) || 'INCONNUE');
+  }
+
   return (
     <div>
       {
@@ -34,7 +39,7 @@ const App = () => {
           PENDING: 'PENDING',
           DENIED: 'DENIED',
           ERROR: 'ERROR',
-          OK: `${geolocationResult.lat} ${geolocationResult.lon}`,
+          OK: riding,
         }[geolocationResult.status]
       }
     </div>
