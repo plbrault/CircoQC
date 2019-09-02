@@ -7,11 +7,6 @@ body {
   height: 100%;
 }
 
-#logo {
-  width: 30px;
-  height: 20px;
-}
-
 #riding {
   font-size: 1.5em;
 }
@@ -26,4 +21,8 @@ footer {
 
 a, a:visited {
   color: #ffffff;
+}
+
+.footer-text {
+  padding: 20px;
 }

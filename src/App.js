@@ -53,6 +53,11 @@ const App = () => {
         <a href="https://github.com/plbrault/circoqc">
           <FontAwesomeIcon icon={faGithub} />
         </a>
+        <div className="footer-text">
+          Ce site utilise les&nbsp;
+          <a href="https://dgeq.org">données ouvertes du DGEQ</a>
+          .
+        </div>
       </footer>
     </div>
   );
