@@ -33,9 +33,8 @@ const App = () => {
 
   if (!geolocationSupported) {
     return isUsingFacebookBrowser
-      ? <div>{'La géolocalisation n\'est pas supportée sur ce navigateur.'}</div>
-      : <div>{'Vous utilisez présentement le navigateur interne de l\'application Facebook. Veuillez ouvrir ce site dans un navigateur externe (ex: Firefox, Chrome, Safari, etc.) pour pouvoir l\'utiliser.'}</div>
-      ;
+      ? <div>{'Vous utilisez présentement le navigateur interne de l\'application Facebook. Veuillez ouvrir ce site dans un navigateur externe (ex: Firefox, Chrome, Safari, etc.) pour pouvoir l\'utiliser.'}</div>
+      : <div>{'La géolocalisation n\'est pas supportée sur ce navigateur.'}</div>;
   }
 
   if (riding === '' && geolocationResult.status === 'OK') {
