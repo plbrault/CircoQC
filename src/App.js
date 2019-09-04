@@ -8,14 +8,15 @@ import logo from './logo.svg';
 import './App.css';
 
 import getRiding from './getRiding';
+import isUsingFacebookBrowser from './isUsingFacebookBrowser';
 
-const App = () => {
+const App = () => {  
   const [geolocationSupported, setGeolocationSupported] = useState(true);
   const [geolocationResult, setGeolocationResult] = useState({ status: 'PENDING' });
   const [riding, setRiding] = useState('');
 
   useEffect(() => {
-    if (navigator.geolocation) {
+    if (navigator.geolocation && !isUsingFacebookBrowser) {
       navigator.geolocation.getCurrentPosition(({ coords: { latitude: lat, longitude: lon } }) => {
         setGeolocationResult({ status: 'OK', lat, lon });
       }, (error) => {
@@ -31,7 +32,10 @@ const App = () => {
   }, [geolocationSupported]);
 
   if (!geolocationSupported) {
-    return <div>{'La géolocalisation n\'est pas supportée sur ce navigateur.'}</div>;
+    return isUsingFacebookBrowser
+      ? <div>{'La géolocalisation n\'est pas supportée sur ce navigateur.'}</div>
+      : <div>{'Vous utilisez présentement le navigateur interne de l\'application Facebook. Veuillez ouvrir ce site dans un navigateur externe (ex: Firefox, Chrome, Safari, etc.) pour pouvoir l\'utiliser.'}</div>
+      ;
   }
 
   if (riding === '' && geolocationResult.status === 'OK') {
