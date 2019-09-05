@@ -17,13 +17,13 @@ const App = () => {
 
   useEffect(() => {
     if (navigator.geolocation && !isUsingFacebookBrowser) {
-      navigator.geolocation.getCurrentPosition(({ coords: { latitude: lat, longitude: lon } }) => {
+      navigator.geolocation.watchPosition(({ coords: { latitude: lat, longitude: lon } }) => {
         setGeolocationResult({ status: 'OK', lat, lon });
       }, (error) => {
         if (error.code === error.PERMISSION_DENIED) {
           setGeolocationResult({ status: 'DENIED' });
         } else {
-          setGeolocationResult({ status: 'error' });
+          setGeolocationResult({ status: 'ERROR' });
         }
       });
     } else {
@@ -37,8 +37,11 @@ const App = () => {
       : <div>{'La géolocalisation n\'est pas supportée sur ce navigateur.'}</div>;
   }
 
-  if (riding === '' && geolocationResult.status === 'OK') {
-    setRiding(getRiding(geolocationResult.lat, geolocationResult.lon) || 'UNKNOWN');
+  if (geolocationResult.status === 'OK') {
+    const newRiding = getRiding(geolocationResult.lat, geolocationResult.lon) || 'UNKNOWN';
+    if (newRiding !== riding) {
+      setRiding(newRiding);
+    }
   }
 
   return (
