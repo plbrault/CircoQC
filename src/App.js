@@ -10,7 +10,7 @@ import './App.css';
 import getRiding from './getRiding';
 import isUsingFacebookBrowser from './isUsingFacebookBrowser';
 
-const App = () => {  
+const App = () => {
   const [geolocationSupported, setGeolocationSupported] = useState(true);
   const [geolocationResult, setGeolocationResult] = useState({ status: 'PENDING' });
   const [riding, setRiding] = useState('');
