@@ -9,6 +9,7 @@ import './App.css';
 
 import getRiding from './getRiding';
 import isUsingFacebookBrowser from './isUsingFacebookBrowser';
+import { version } from '../package.json';
 
 const App = () => {
   const [geolocationSupported, setGeolocationSupported] = useState(true);
@@ -76,6 +77,10 @@ const App = () => {
           Ce site utilise les&nbsp;
           <a href="https://dgeq.org">données ouvertes du DGEQ</a>
           .
+        </div>
+        <div>
+          v
+          {version}
         </div>
       </footer>
     </div>
